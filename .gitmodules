@@ -1,3 +1,0 @@
-[submodule "xv6-riscv"]
-	path = xv6-riscv
-	url = https://github.com/janetat/xv6-riscv
