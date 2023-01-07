@@ -141,6 +141,7 @@ UPROGS=\
 	$U/_pipe1\
 	$U/_pipe2\
 	$U/_redirect\
+	$U/_pages\
 
 fs.img: mkfs/mkfs README $(UPROGS)
 	mkfs/mkfs fs.img README $(UPROGS)
