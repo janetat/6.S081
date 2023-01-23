@@ -142,6 +142,10 @@ UPROGS=\
 	$U/_pipe2\
 	$U/_redirect\
 	$U/_pages\
+	$U/_sleep\
+	$U/_pingpong\
+	$U/_find\
+	$U/_xargs\
 
 fs.img: mkfs/mkfs README $(UPROGS)
 	mkfs/mkfs fs.img README $(UPROGS)
